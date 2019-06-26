@@ -7,4 +7,5 @@ import { DataViaFSSync } from './strategy/DataViaFSSync'
 
 const babyNames = new Names(new DataViaRequire())
 
+export const all = babyNames.loadNamesStrategy.names
 export const random = uniqueRandomArray(babyNames.loadNamesStrategy.names)
