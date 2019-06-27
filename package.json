@@ -1,6 +1,6 @@
 {
   "name": "hvag-demo",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Pick a random baby name",
   "main": "lib/index.js",
   "scripts": {
