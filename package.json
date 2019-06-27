@@ -1,11 +1,14 @@
 {
-  "name": "baby-names",
+  "name": "hvag-demo",
   "version": "1.0.0",
   "description": "Pick a random baby name",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hmashaw/baby-names.git"
