@@ -1,7 +1,7 @@
 const expect = require('chai').expect
-const babyNames = require('../lib/index')
+const names = require('../lib/index')
 
-describe('baby names', () => {
+describe('Names', () => {
 
     describe('all', () => {
         it('should be an array of strings', () => {
@@ -12,20 +12,20 @@ describe('baby names', () => {
                 })
             }
 
-            expect(babyNames.all).to.satisfy(everyElementIsAString)
+            expect(names.all).to.satisfy(everyElementIsAString)
 
         })
 
         it('should include `Anthony`', () => {
-            expect(babyNames.all).to.include('Anthony')
+            expect(names.all).to.include('Anthony')
         })
     })
 
     describe('random', () => {
-        const randomName = babyNames.random()
+        const randomName = names.random()
 
-        it('should return a random element from babyNames', () => {
-            expect(babyNames.all).to.include(randomName)
+        it('should return a random element from names', () => {
+            expect(names.all).to.include(randomName)
         })
 
         it('should return a string', () => {

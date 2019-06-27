@@ -4,7 +4,8 @@
   "description": "Pick a random baby name",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha"
+    "build": "tsc",
+    "test": "mocha --reporter spec"
   },
   "files": [
     "lib"
